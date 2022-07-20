@@ -45,6 +45,7 @@
   /* Middle Container Style  */
   .middle-container {
     margin-top: 0px;
+    flex-direction: column;
   }
   .match-info {
     display: flex;
@@ -89,6 +90,7 @@
   }
   .icons img{
     padding-right:20px ;
+    padding-left: 20px;
   }
 }
 /* Footer Container Style Ends  */
@@ -99,7 +101,8 @@
 @media screen and (min-width: 668px) and (max-width: 992px) {
   .header-container {
     width: 90%;
-    height: 400px;
+    margin-top: 10px;
+    height: 450px;
   }
 
   .text-area h1 {
@@ -107,6 +110,7 @@
   }
   .text-area p {
     font-size: 14px;
+    margin-bottom: 30px;
   }
   .world-cup img {
     width: 50%;
@@ -178,6 +182,7 @@
   
   .links {
     display: flex;
+    flex-direction: column;
     padding-right: 40px;
     justify-content: center;
     align-items: center;
