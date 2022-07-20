@@ -145,11 +145,15 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 100px;
+    column-gap: 40px;
     margin-bottom: 100px;
 }
 .schedule-match{
     height: 242px;
     width: 312px;
+}
+.match-info{
+    justify-content: center;
 }
 
 .match-information{
@@ -177,7 +181,15 @@ body{
 .flag-teams{
     display: flex;
 }
-
+.load-button{
+    display: none;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px 16px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
 
 
 /* Schedule  Match Style Ends */
