@@ -1,79 +1,172 @@
-@media screen and (max-width: 576px) {
+/*====================== Mobile Responsive ========================*/
 
-/* Header Section Style  */
-.header-container{
+@media screen and (max-width: 667px) {
+  /* Header Section Style  */
+  .header-container {
     flex-direction: column;
-}
-.text-area{
+  }
+  .text-area {
     width: 100%;
     margin-top: 30px;
-}
-.button{
+  }
+  .button {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-.live-button{
+  }
+  .live-button {
     margin: 0px;
-}
-.text-area h1{
+  }
+  .text-area h1 {
     font-size: 22px;
     text-align: center;
     align-items: center;
     padding: 0;
     line-height: 1.5;
-}
-.text-area p{
+  }
+  .text-area p {
     padding: 0 50px 0 50px;
     text-align: justify;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     margin-top: 15px;
-}
-.world-cup{
+  }
+  .world-cup {
     align-items: center;
     width: 100%;
-}
-.world-cup img{
+    display: flex;
+  }
+  .world-cup img {
     width: 50%;
-}
-/* Header Section Ends  */
+  }
+  /* Header Section Ends  */
 
-/* Middle Container Style  */
-.middle-container{
+  /* Middle Container Style  */
+  .middle-container {
     margin-top: 0px;
-}
-.match-info{
+  }
+  .match-info {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-}
-.all-match{
+  }
+  .all-match {
+    width: 80%;
     margin: 0px;
     background-color: white;
-}
-.all-match a{
+  }
+  .all-match a {
     border: 1px solid rgba(0, 0, 0, 0.212);
     margin: 16px 0 0 0;
-}
-.live-match{
+  }
+  .live-match {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-content: center;
+  }
+  .match-info-container{
+    grid-template-columns: repeat(1, 1fr);
     width: 50%;
-}
-/* Middle Container Style Ends  */
-.links{
+  }
+  /* Middle Container Style Ends  */
+
+  /* Footer Container Style Starts  */
+  .links {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  .links a {
+    padding: 20px 0 0 0;
+  }
+}
+/* Footer Container Style Ends  */
+
+/*====================== Tablet Responsive ========================*/
+
+/* Header Section Style  */
+@media screen and (max-width: 992px) and (min-width: 668px) {
+  .header-container {
+    width: 90%;
+  }
+  .text-area h1 {
+    font-size: 40px;
+  }
+  .text-area p {
+    font-size: 14px;
+  }
+  .world-cup img {
+    width: 50%;
+  }
+  /* Header Section Ends  */
+
+
+  /* Middle Section Style  */
+  .match-info {
+    flex-direction: column;
+    width: 90%;
+  }
+
+
+  .match-info{
+    align-items: center;
+    margin: 0;
+  }
+  .all-match {
+    height: auto;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  .upcoming-match {
+    border: 1px solid black;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+  }
+  .all-group {
+    margin: 0;
+    padding: 10px 40px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+  .blog {
+    margin: 0;
+    padding: 10px 40px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+
+  .live-match{
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+  }
+
+  .load-button{
+    display: block;
+    margin-top: 60px;
+  }
+
+  .links{
+    display: grid;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+  }
+
+  .links a{
+    padding: 10px;
+  }
 }
 
-.links a{
-    padding: 20px 0 0 0;
-    padd
-}
-}
