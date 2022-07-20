@@ -1,0 +1,68 @@
+@media screen and (max-width: 576px) {
+
+/* Header Section Style  */
+.header-container{
+    flex-direction: column;
+}
+.text-area{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.text-area h1{
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+.text-area p{
+    padding: 0 50px 0 50px;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 15px;
+}
+.world-cup{
+    align-items: center;
+    width: 100%;
+}
+.world-cup img{
+    width: 50%;
+}
+/* Header Section Ends  */
+
+.middle-container{
+    margin-top: 0px;
+}
+.match-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.all-match{
+    margin: 0px;
+    background-color: white;
+}
+.all-match a{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    margin: 16px 0 0 0;
+}
+.live-match{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links a{
+    padding-top: 20px;
+}
+}

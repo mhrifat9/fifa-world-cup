@@ -140,7 +140,43 @@ body{
 /* ===========================    */
 
 /* Schedule  Match Style starts */
+.match-info-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    margin-bottom: 100px;
+}
+.schedule-match{
+    height: 242px;
+    width: 312px;
+}
 
+.match-information{
+    text-decoration: none;
+    color: #161616;
+}
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    padding: 55px 30px 40px 30px;
+}
+.schedule img{
+    width: 92px;
+    height: 56px;
+}
+
+.text-opponent{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.flag-teams{
+    display: flex;
+}
 
 
 
@@ -182,5 +218,4 @@ hr{
 
 .links a:hover{
     color: #ffffff;
-    
 }
