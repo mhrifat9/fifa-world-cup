@@ -8,8 +8,13 @@
     width: 100%;
     margin-top: 30px;
 }
-button{
+.button{
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.live-button{
+    margin: 0px;
 }
 .text-area h1{
     font-size: 22px;
@@ -68,6 +73,7 @@ button{
 }
 
 .links a{
-    padding-top: 20px;
+    padding: 20px 0 0 0;
+    padd
 }
 }
