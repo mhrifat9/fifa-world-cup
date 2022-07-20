@@ -75,15 +75,20 @@
   /* Middle Container Style Ends  */
 
   /* Footer Container Style Starts  */
-
+  .social-pages{
+    display: flex;
+    flex-direction: column;
+  }
   .links {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
   .links a {
     padding: 20px 0 0 0;
+  }
+  .icons img{
+    padding-right:20px ;
   }
 }
 /* Footer Container Style Ends  */
@@ -94,6 +99,7 @@
 @media screen and (min-width: 668px) and (max-width: 992px) {
   .header-container {
     width: 90%;
+    height: 400px;
   }
 
   .text-area h1 {
@@ -171,12 +177,10 @@
   }
   
   .links {
-    display: grid;
+    display: flex;
     padding-right: 40px;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 20px;
   }
 
   .links a {
