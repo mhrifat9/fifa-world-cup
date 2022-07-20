@@ -7,13 +7,16 @@
 .text-area{
     width: 100%;
     margin-top: 30px;
-
+}
+button{
+    width: 100%;
 }
 .text-area h1{
     font-size: 22px;
     text-align: center;
     align-items: center;
     padding: 0;
+    line-height: 1.5;
 }
 .text-area p{
     padding: 0 50px 0 50px;
@@ -32,6 +35,7 @@
 }
 /* Header Section Ends  */
 
+/* Middle Container Style  */
 .middle-container{
     margin-top: 0px;
 }
@@ -56,6 +60,7 @@
     justify-content: center;
     width: 50%;
 }
+/* Middle Container Style Ends  */
 .links{
     display: flex;
     flex-direction: column;
